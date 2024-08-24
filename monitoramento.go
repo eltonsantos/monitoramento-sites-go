@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"strconv"
@@ -121,7 +120,7 @@ func leSitesDoArquivo() []string {
 
 func registraLog(site string, status bool) {
 
-	arquivo, err := os.OpenFile("log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	arquivo, err := os.OpenFile("logs.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 
 	if err != nil {
 		fmt.Println(err)
@@ -134,12 +133,11 @@ func registraLog(site string, status bool) {
 
 func imprimeLogs() {
 
-	arquivo, err := ioutil.ReadFile("log.txt")
+	arquivo, err := os.ReadFile("logs.txt")
 
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("Erro ao buscar logs: ", err)
 	}
 
 	fmt.Println(string(arquivo))
-
 }

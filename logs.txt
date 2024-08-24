@@ -1,0 +1,10 @@
+24/08/2024 00:32:55 - https://www.alura.com.br - online: true
+24/08/2024 00:32:55 - https://random-status-code.herokuapp.com - online: false
+24/08/2024 00:32:56 - https://www.caelum.com.br - online: true
+24/08/2024 00:32:57 - https://www.casadocodigo.com.br - online: true
+24/08/2024 00:32:58 - https://www.eltonmelosantos.com.br - online: true
+24/08/2024 00:33:03 - https://www.alura.com.br - online: true
+24/08/2024 00:33:03 - https://random-status-code.herokuapp.com - online: false
+24/08/2024 00:33:04 - https://www.caelum.com.br - online: true
+24/08/2024 00:33:04 - https://www.casadocodigo.com.br - online: true
+24/08/2024 00:33:04 - https://www.eltonmelosantos.com.br - online: true
